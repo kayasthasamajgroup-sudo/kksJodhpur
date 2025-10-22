@@ -10,7 +10,9 @@
             <div class="col-lg-6 mb-4 mb-lg-0 text-center d-none d-md-inline">
                 <img src="banner-image/matrimonial-form.png" class="img-fluid" alt="Form Banner">
             </div>
-
+            <div class="col-lg-6 mb-4 mb-lg-0 text-center d-block d-md-none">
+                <img src="banner-image/matrimonial-banner.png" class="img-fluid" alt="Form Banner">
+            </div>
             <!-- Right Column: Form -->
             <div class="col-lg-6">
                 <div class="card p-4 shadow-sm">
