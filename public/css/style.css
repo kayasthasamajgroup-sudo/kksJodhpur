@@ -545,11 +545,12 @@ body {
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
+    font-size: 13px;
 }
 
 .footer .btn.btn-link:hover {
     color: var(--bs-primary);
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
     box-shadow: none;
 }
 
@@ -757,4 +758,16 @@ width: 140px;
 }
 .business-image{
     height: 400px !important;
+}
+.event-image{
+    cursor:pointer;
+     height: 330px;
+      object-fit: cover;
+}
+@media only screen and (max-width: 768px) {
+    .event-image{
+     
+         height: 260px;
+         
+    } 
 }

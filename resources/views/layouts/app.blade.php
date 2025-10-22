@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('fontawesome-free-6.7.2-web/css/all.min.css') }}">
     <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-   
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
 </head>
 
 <body>

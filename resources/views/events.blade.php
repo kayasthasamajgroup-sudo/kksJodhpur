@@ -12,7 +12,8 @@
                     <!-- Thumbnail Image -->
                     <img  src="{{ asset('storage/' . $event->event_photo) }}" 
                          alt="{{ $event->event_name }}" 
-                         style="cursor:pointer;" 
+                         class="card-img-top event-image"
+                         
                          data-bs-toggle="modal" 
                          data-bs-target="#imageModal-{{ $event->id }}">
 
@@ -21,7 +22,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                                 <div class="modal-body p-0">
-                                    <img src="{{ asset('storage/' . $event->event_photo) }}" class="img-fluid w-100" alt="{{ $event->event_name }}">
+                                    <img   src="{{ asset('storage/' . $event->event_photo) }}" class="img-fluid w-100 " alt="{{ $event->event_name }}">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

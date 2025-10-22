@@ -49,13 +49,23 @@
 
             <select name="sub_caste" id="subCaste" class="form-select mb-3" required>
               <option value="">{{ __('form.sub_cast_placeholder') }}</option>
-              <option value="baniya">Baniya</option>
-              <option value="jain">Jain</option>
-              <option value="gupta">Gupta</option>
-              <option value="maheshwari">Maheshwari</option>
-              <option value="agarwal">Agarwal</option>
-              <option value="marwari">Marwari</option>
-              <option value="others">Others</option>
+              <option value="Shrivastav" class=" ">Shrivastav</option>
+                                <option value="Saxena" class=" ">Saxena</option>
+                                <option value="Nigam" class=" ">Nigam</option>
+                                <option value="Bhatnagar" class=" ">Bhatnagar</option>
+                                <option value="Mathur" class=" ">Mathur</option>
+                                <option value="Asthana" class=" ">Asthana</option>
+                                <option value="Verma" class=" ">Verma</option>
+                                <option value="Roy" class=" ">Roy</option>
+                                <option value="Paul" class=" ">Paul</option>
+                                <option value="Bose" class=" ">Bose</option>
+                                <option value="Dutta" class=" ">Dutta</option>
+                                <option value="Gour" class=" ">Gour</option>
+                                <option value="Ghosh" class=" ">Ghosh</option>
+                                <option value="Johri" class=" ">Johri</option>
+                                <option value="Kulshrestha " class=" ">Kulshrestha </option>
+                                <option value="Sinha" class=" ">Sinha</option>
+                                <option value="other" class=" ">other</option>
             </select>
             <div class="invalid-feedback mb-2">{{ __('form.please_select_subcast') }}</div>
 
